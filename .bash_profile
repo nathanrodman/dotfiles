@@ -14,6 +14,7 @@ alias alertsbanner='~/release_tools/alertsbanner/releases/darwin_alertsbanner'
 alias prune_branches="echo 'deleting merged branches'; git branch --list --merged | grep --invert-match --extended-regexp '\*|master' | xargs -n 1 git branch -d"
 alias chivpn='~/nr-osa-chi-vpn-connect/bin/connect'
 alias JS='osascript -l JavaScript -i'
+alias rpm='cd ~/newrelic/rpm_site'
 # startup virtualenv-burrito
 if [ -f $HOME/.venvburrito/startup.sh ]; then
     . $HOME/.venvburrito/startup.sh
